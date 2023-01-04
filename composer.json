@@ -1,6 +1,6 @@
 {
-    "name": "mitoop/signal",
-    "description": "signal",
+    "name": "mitoop/monitor",
+    "description": "monitor",
     "type": "library",
     "license": "MIT",
     "autoload": {
