@@ -5,7 +5,7 @@ require '../vendor/autoload.php';
 
 use Mitoop\Monitor;
 
-Monitor::macro('getTimestampOfLastQueueRestart', static fn () => getTimestampOfLastQueueRestart());
+Monitor::macro('getTimestampOfLastQueueRestart', fn () => getTimestampOfLastQueueRestart());
 
 $monitor = new Monitor(3, 200);
 
